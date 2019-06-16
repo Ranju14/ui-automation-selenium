@@ -14,6 +14,6 @@ This is a sample UI automation tests using selenium
 
 ## Running the tests
 
-1.Run testng.xml file
+1. Run testng.xml file
 
-2.Refresh project folder to get the test-output folder
+2. Refresh project folder to get the test-output folder
