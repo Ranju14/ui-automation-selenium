@@ -16,6 +16,7 @@ public class BaseClass {
 	 
 	 @BeforeSuite
 		public void setup() throws Exception{
+		 	// change "/Users/adarsh/Documents/Automation/gecko-driver" to "the path of geckodrive.exe in your PC"
 			System.setProperty("webdriver.gecko.driver","/Users/adarsh/Documents/Automation/gecko-driver");
 			driver = new FirefoxDriver();
 			driver.manage().window().maximize();

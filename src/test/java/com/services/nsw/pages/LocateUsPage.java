@@ -18,7 +18,6 @@ public class LocateUsPage extends BaseClass{
 	@FindBy(id = "locatorTextSearch")
 	private WebElement locatorSearchBox;
 	
-	
 	@FindBy(className = "locator__results-list")
 	private WebElement searchResults;
 	
@@ -32,8 +31,7 @@ public class LocateUsPage extends BaseClass{
 		locatorSearchBox.sendKeys(searchText);	
 		locatorSearchBox.sendKeys(Keys.ENTER);
 	}
-	
-	
+		
 	public void verifyLocateUsSearch(String searchText) {
 		WebDriverWait wait= new WebDriverWait(driver,15);
 		wait.until(ExpectedConditions.visibilityOf(locatorSearchBox));
