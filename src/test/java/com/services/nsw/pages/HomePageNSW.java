@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import utils.BaseClass;
+import com.services.nsw.utils.BaseClass;
 
 public class HomePageNSW extends BaseClass {
 	
