@@ -26,5 +26,6 @@ public class LocateUsTest extends BaseClass{
 		LocateUsPage locateUs = new LocateUsPage(driver);
 		locateUs.typeOnLocationSearchBar(suburb);
 		locateUs.verifyLocateUsSearch(serviceCenter);
+		
 	}	
 }
